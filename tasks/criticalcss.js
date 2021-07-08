@@ -28,7 +28,8 @@ module.exports = function(grunt) {
 			forceInclude: [],
 			buffer: 800*1024,
 			ignoreConsole: false,
-			restoreFontFaces: false
+			restoreFontFaces: false,
+			ignoreSSLErrors: false
 		});
 
 		criticalcss.getRules( options.filename, { buffer: options.buffer }, function( err, content ){

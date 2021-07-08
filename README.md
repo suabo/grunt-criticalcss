@@ -95,6 +95,12 @@ Default value: `false`
 
 If you include `@font-face` declarations in your `all.css` file and set this flag to `true` in your options, criticalcss will include all the `@font-face` declarations that are required to satisfy `font-family` declarations in the criticalcss output.
 
+#### options.ignoreSSLErrors
+Type: `Boolean`
+Default value: `false`
+
+Ignore SSL Errors like self signed ssl certificates, etc.
+
 ### Usage Examples
 
 #### Custom Options
